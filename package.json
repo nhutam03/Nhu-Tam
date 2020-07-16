@@ -1,0 +1,18 @@
+{
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "description": "bot Kanna-chan",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Twm",
+  "license": "ISC",
+  "keywords": [
+    "BDC"
+  ],
+  "dependencies": {
+    "discord.js": "12.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
