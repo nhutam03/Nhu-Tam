@@ -11,7 +11,8 @@ let fortunes = [
 ]
 let bully = [
     "thằng đầu buồi giẻ rách này", "nghe mà đau nát trái tim này", "mẹ cái bọn lesor", "NamKey buscu Backy", "đừng chửi em nữa, yêu em đi", "hic cai loz, im lang", "ngoan ngoan", "nếu cảm thấy mệt quá, em cho mượn bờ vide, thì thầm em nói nhỏ, tổng cộng năm trăm hai",
-    "hic là năm lít"
+    "hic là năm lít", "Ai là đứa trẻ ngoan nàoooo? Đéo phải mày, cút.", "wjbu thì im mồm", "Phải tôi tôi lại đấm cho mấy fat",
+    "bớt đùa đi, dạo này tao không còn hiền nữa đâu", "yêu em đừng để em buồn, em buồn anh vẫn phải yêu em <3"
 ]
 let fatdean = [
     "dai ja xao loz", "mập quá anh ơi", "ai nớp diu chu cà mo"
@@ -48,11 +49,15 @@ bot.on("message", async message => {
     }
     
     if (message.content === "hoa cai") {
-        message.channel.send("mui~ tooo")
+        message.channel.send("dễ thương nhưng ngoại trừ thằng hoa cải pha ke")
     }
     
     if (message.content === "mina") {
         message.chanel.send("hen cac ban vao 20/7")
+    }
+    
+    if (message.content === "nguyen jung~ va lil cuong") {
+        message.channel.send("dong huong tot, mot like")
     }
 
     if (message.content === "mk") {
