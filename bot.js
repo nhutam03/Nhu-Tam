@@ -47,6 +47,10 @@ bot.on("message", async message => {
         message.channel.send("j loli trong truyen thuyet sao")
     }
     
+    if (message.content === "hoa cai") {
+        message.channel.send("mui~ tooo")
+    }
+    
     if (message.content === "mina") {
         message.chanel.send("hen cac ban vao 20/7")
     }
@@ -67,12 +71,6 @@ bot.on("message", async message => {
         message.channel.send(fatdean[Math.floor(Math.random() * fatdean.length)]);
     }
     
-    if (message.content,startsWith(":say")) {
-        var text = message.content.split(' ').slice(1).join(' ');
-        if(!text) return message.rely("sai roi em oi");
-        message.channel.send(text)
-        message.delete()
-    }
 
     if (message.author.equals(bot.user)) return;
     var args = message.content.substring(PREFIX.length).split(" ")
@@ -91,7 +89,7 @@ bot.on("message", async message => {
             message.channel.send("Tôi là con bot vô dụng, tôi không giúp được ai cả hic. Nhưng chửi nhau set ke`o dam' nhau thì oce (° ͜ʖ ͡°)");
             break;
         }
-        case "hey": {
+        case "say": {
             if (args[0]) {
                 message.channel.send(fortunes[Math.floor(Math.random() * fortunes.length)]);
             }
