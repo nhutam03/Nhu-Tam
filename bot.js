@@ -68,7 +68,8 @@ bot.on("message", async message => {
     }
     
     if (message.content,startsWith(":say")) {
-        var text = message.content.split(' ').slice(1).join(' )
+        var text = message.content.split(' ').slice(1).join(' ');
+        if(!text) return message.rely("sai roi em oi");
         message.channel.send(text)
         message.delete()
     }
@@ -90,7 +91,7 @@ bot.on("message", async message => {
             message.channel.send("Tôi là con bot vô dụng, tôi không giúp được ai cả hic. Nhưng chửi nhau set ke`o dam' nhau thì oce (° ͜ʖ ͡°)");
             break;
         }
-        case "talk": {
+        case "hey": {
             if (args[0]) {
                 message.channel.send(fortunes[Math.floor(Math.random() * fortunes.length)]);
             }
