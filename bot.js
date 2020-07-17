@@ -90,7 +90,7 @@ bot.on("message", async message => {
             message.channel.send("Tôi là con bot vô dụng, tôi không giúp được ai cả hic. Nhưng chửi nhau set ke`o dam' nhau thì oce (° ͜ʖ ͡°)");
             break;
         }
-        case "say": {
+        case "talk": {
             if (args[0]) {
                 message.channel.send(fortunes[Math.floor(Math.random() * fortunes.length)]);
             }
