@@ -15,12 +15,15 @@ let bully = [
     "bớt đùa đi, dạo này tao không còn hiền nữa đâu", "yêu em đừng để em buồn, em buồn anh vẫn phải yêu em <3", "tự làm bot mà chơi, chơi chùa là 300k"
 ]
 let fatdean = [
-    "dai ja xao loz", "mập quá anh ơi", "ai nớp diu chu cà mo"
+    "dai ja xao loz", "mập quá anh ơi", "thích tò mò không mà kêu hoài z", "an cut’ an db",
 ]
 fatto = [
-    "admin cute hehe", "cali khat' nuoc'", "baka bakaaa", "vippro"
+    "admin cute hehe", "cali khat' nuoc'", "baka bakaaa", "vippro",
+    "phải luôn vui vẻ và tươi trẻ he he"
 ]
-let mk = "Gia Lai thich nhau lai rai"
+let mk = [
+    "Gia Lai thich nhau lai rai", "nhớ đốt phong long nha mk" 
+]
 
 bot.on('ready', function () {
     console.log("bot is now online");
@@ -65,7 +68,7 @@ bot.on("message", async message => {
     }
 
     if (message.content === "mk") {
-        message.channel.send(mk)
+        message.channel.send(mk[Math.floor(Math.random() * mk.length)]);
     }
 
     if (message.content === "hic") {
