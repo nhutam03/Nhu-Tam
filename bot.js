@@ -33,9 +33,7 @@ bot.on('ready', function () {
 })
 
 bot.on("message", async message => {
-    if (message.author.id !== 'Hoho "hoho" Hoho#5934') {
-        message.delete()
-    }
+   
 
     if (message.content === "gioi") {
         message.channel.send("chu ngu nhu may sao")
