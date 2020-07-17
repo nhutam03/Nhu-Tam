@@ -21,6 +21,9 @@ fatto = [
     "admin cute hehe", "cali khat' nuoc'", "baka bakaaa", "vippro",
     "phải luôn vui vẻ và tươi trẻ he he"
 ]
+let gn = [
+    "Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau"
+]
 let mk = [
     "Gia Lai thich nhau lai rai", "nhớ đốt phong long nha mk" 
 ]
@@ -81,6 +84,10 @@ bot.on("message", async message => {
 
     if (message.content === "fat dean") {
         message.channel.send(fatdean[Math.floor(Math.random() * fatdean.length)]);
+    }
+
+    if (message.content === "ngu ngon") {
+        message.channel.send(gn[Math.floor(Math.random() * gn.length)]);
     }
     
 
