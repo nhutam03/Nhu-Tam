@@ -66,6 +66,12 @@ bot.on("message", async message => {
     if (message.content === "fat dean") {
         message.channel.send(fatdean[Math.floor(Math.random() * fatdean.length)]);
     }
+    
+    if (message.content,startsWith(":say")) {
+        var text = message.content.split(' ').slice(1).join(' )
+        message.channel.send(text)
+        message.delete()
+    }
 
     if (message.author.equals(bot.user)) return;
     var args = message.content.substring(PREFIX.length).split(" ")
