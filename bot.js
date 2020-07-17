@@ -7,18 +7,18 @@ if (process.env.NODE_ENV !== 'production') {
 
 let bot = new Discord.Client();
 let fortunes = [
-    "không", "đoán xem", "tôi không nghe, tôi không thấy", "đi ngủ để mer đi", "mẹ cái bọn lesor", "thằng đầu buổi giẻ rách", "cut' me may di"
+    "không", "đoán xem", "tôi không nghe, tôi không thấy", "đi ngủ để mer đi", "mẹ cái bọn lesor", "thằng đầu buổi giẻ rách", "cut' me may di"
 ]
 let bully = [
-    "thằng đầu buồi giẻ rách này", "nghe mà đau nát trái tim này", "mẹ cái bọn lesor", "NamKey buscu Backy", "đừng chửi em nữa, yêu em đi", "hic cai loz, im lang", "ngoan ngoan", "nếu cảm thấy mệt quá, em cho mượn bờ vide, thì thầm em nói nhỏ, tổng cộng năm trăm hai",
-    "hic là năm lít", "Ai là đứa trẻ ngoan nàoooo? Đéo phải mày, cút.", "wjbu thì im mồm", "Phải tôi tôi lại đấm cho mấy fat",
-    "bớt đùa đi, dạo này tao không còn hiền nữa đâu", "yêu em đừng để em buồn, em buồn anh vẫn phải yêu em <3"
+    "thằng đầu buồi giẻ rách này", "nghe mà đau nát trái tim này", "mẹ cái bọn lesor", "NamKey buscu Backy", "đừng chửi em nữa, yêu em đi", "hic cai loz, im lang", "ngoan ngoan", "nếu cảm thấy mệt quá, em cho mượn bờ vide, thì thầm em nói nhỏ, tổng cộng năm trăm hai",
+    "hic là năm lít", "Ai là đứa trẻ ngoan nàoooo? Đéo phải mày, cút.", "wjbu thì im mồm", "Phải tôi tôi lại đấm cho mấy fat",
+    "bớt đùa đi, dạo này tao không còn hiền nữa đâu", "yêu em đừng để em buồn, em buồn anh vẫn phải yêu em <3", "tự làm bot mà chơi, chơi chùa là 300k"
 ]
 let fatdean = [
-    "dai ja xao loz", "mập quá anh ơi", "ai nớp diu chu cà mo"
+    "dai ja xao loz", "mập quá anh ơi", "ai nớp diu chu cà mo"
 ]
 fatto = [
-    "admin cute hehe", "cali khat' nuoc'", "đưa ba trăm để có thêm", "vippro"
+    "admin cute hehe", "cali khat' nuoc'", "baka bakaaa", "vippro"
 ]
 let mk = "Gia Lai thich nhau lai rai"
 
@@ -49,11 +49,11 @@ bot.on("message", async message => {
     }
     
     if (message.content === "hoa cai") {
-        message.channel.send("dễ thương nhưng ngoại trừ thằng hoa cải pha ke")
+        message.channel.send("sống ở đời nói phải giữ lời, đừng như con cu biết bay 👌")
     }
     
     if (message.content === "mina") {
-        message.chanel.send("hen cac ban vao 20/7")
+        message.channel.send("hen cac ban vao 20/7")
     }
     
     if (message.content === "nguyen jung~ va lil cuong") {
@@ -82,7 +82,7 @@ bot.on("message", async message => {
     if (!message.content.startsWith(PREFIX)) return;
     switch (args[0].toLowerCase()) {
         case "alo": {
-            message.channel.send("công an đây địt mẹ mày");
+            message.channel.send("công an đây địt mẹ mày");
             break;
         }
 
@@ -91,7 +91,7 @@ bot.on("message", async message => {
             break;
         }
         case "help": {
-            message.channel.send("Tôi là con bot vô dụng, tôi không giúp được ai cả hic. Nhưng chửi nhau set ke`o dam' nhau thì oce (° ͜ʖ ͡°)");
+            message.channel.send("Tôi là con bot vô dụng, tôi không giúp được ai cả hic. Nhưng chửi nhau set ke`o dam' nhau thì oce (° ͜ʖ ͡°)");
             break;
         }
         case "say": {
