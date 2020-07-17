@@ -19,7 +19,7 @@ let fatdean = [
 fatto = [
     "admin cute hehe", "cali khat' nuoc'", "đưa ba trăm để có thêm", "vippro"
 ]
-let mk = "cho 300k de co command minh khai"
+let mk = "Gia Lai thich nhau lai rai"
 
 bot.on('ready', function () {
     console.log("bot is now online");
@@ -33,6 +33,22 @@ bot.on("message", async message => {
 
     if (message.content === "twm") {
         message.channel.send("thomng mimnh sieu cap")
+    }
+    
+    if (message.content === "van fuong") {
+        message.channel.send("lesor lord sao")
+    }
+    
+    if (message.content === "nhat ha") {
+        message.channel.send("fuckgirl 2k6 du cac anh vao tu")
+    }
+    
+    if (message.content === "minh thu") {
+        message.channel.send("j loli trong truyen thuyet sao")
+    }
+    
+    if (message.content === "mina") {
+        message.chanel.send("hen cac ban vao 20/7")
     }
 
     if (message.content === "mk") {
