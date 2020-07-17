@@ -56,6 +56,10 @@ bot.on("message", async message => {
         message.channel.send("hen cac ban vao 20/7")
     }
     
+    if (message.content === "nhi") {
+        message.channel.send("tụi mày khóc chắc gì đã khổ, tuy Nhi cười nhưng máu đổ trong pant")
+    }
+    
     if (message.content === "nguyen jung~ va lil cuong") {
         message.channel.send("dong huong tot, mot like")
     }
@@ -104,5 +108,4 @@ bot.on("message", async message => {
 })
 
 bot.login(process.env.BOT_TOKEN);
-
 
