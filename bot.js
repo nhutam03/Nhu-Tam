@@ -27,6 +27,9 @@ let gn = [
 let mk = [
     "Gia Lai thich nhau lai rai", "nhớ đốt phong long nha mk" 
 ]
+let theanh = [
+    "Đi ăn chè thái hok?", "mẹ cái thằng simp đội loz lên đầu", "duy trì tình bạn bằng 100k bạn nhé"
+]
 
 bot.on('ready', function () {
     console.log("bot is now online");
@@ -89,6 +92,10 @@ bot.on("message", async message => {
 
     if (message.content === "ngu ngon") {
         message.channel.send(gn[Math.floor(Math.random() * gn.length)]);
+    }
+
+    if (message.content === "the anh") {
+        message.channel.send(theanh[Math.floor(Math.random() * theanh.length)]);
     }
     
 
