@@ -90,7 +90,7 @@ bot.on("message", async message => {
         message.channel.send(fatdean[Math.floor(Math.random() * fatdean.length)]);
     }
 
-    if (message.content === "ngu ngon") {
+    if (message.content.includes === "ngu ngon") {
         message.channel.send(gn[Math.floor(Math.random() * gn.length)]);
     }
 
