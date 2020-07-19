@@ -149,7 +149,7 @@ bot.on("message", async message => {
 
     const bully = [ "thằng đầu buồi giẻ rách này", "nghe mà đau nát trái tim này", "mẹ cái bọn lesor", "NamKey buscu Backy", "đừng chửi em nữa, yêu em đi", "hic cai loz, im lang", "ngoan ngoan", "nếu cảm thấy mệt quá, em cho mượn bờ vide, thì thầm em nói nhỏ, tổng cộng năm trăm hai", "hic là năm lít", "Ai là đứa trẻ ngoan nàoooo? Đéo phải mày, cút.", "wjbu thì im mồm", "Phải tôi tôi lại đấm cho mấy fat", "bớt đùa đi, dạo này tao không còn hiền nữa đâu", "yêu em đừng để em buồn, em buồn anh vẫn phải yêu em <3", "tự làm bot mà chơi, chơi chùa là 300k"]
     const randombully = bully[Math.floor(Math.random() * bully.length)] 
-    if ((message.content === "hic") || (message.content === "co au jam")) {
+    if ((message.content === "hic") || (message.content === "Hic")) {
         message.channel.send(randombully);
     }
 
@@ -172,7 +172,7 @@ bot.on("message", async message => {
 
     const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau"]
     const randomgn = gn[Math.floor(Math.random() * gn.length)]
-    if ((message.content.includes("ngu ngon")) || (message.content.includes('Ngu ngon'))) {
+    if ((message.content.includes("ngu ngon")) || (message.content.includes("Ngu ngon"))) {
         message.channel.send(randomgn);
     }
 
