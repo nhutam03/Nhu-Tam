@@ -109,11 +109,11 @@ bot.on("message", async message => {
     if(message.content === "!nhatha"){
         message.channel.send('chi so dang yeu cua nhatha la 1 ty')
     }
-    if(message.content === "!sugarsama"){
-        message.channel.send('xin dung ai nhac ve co ay')
-    };
+    //if(message.content === "!sugarsama"){
+     //   message.channel.send('xin dung ai nhac ve co ay')
+    //};
     if(message.content === "!twm"){
-        message.channel.send('van vo 80')
+        message.channel.send('van vo 10/10')
     };
     if(message.content === "tha"){
         message.channel.send('tha jum')
@@ -170,7 +170,7 @@ bot.on("message", async message => {
         message.channel.send(randomtheanh);
     }
 
-    const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau"]
+    const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
     const randomgn = gn[Math.floor(Math.random() * gn.length)]
     if ((message.content.includes("ngu ngon")) || (message.content.includes("Ngu ngon"))) {
         message.channel.send(randomgn);
