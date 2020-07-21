@@ -79,12 +79,12 @@ bot.on("message", async message => {
     if(message.content === "!thanngu"){
         message.channel.send('dit me than ngu');
     }
-    if(message.content === "!thaophuong"){
-        message.channel.send('anh yeu em');
-    }
-    if(message.content === "!phuongthao"){
-        message.channel.send('anh yeu em');
-    }
+    //if(message.content === "!thaophuong"){
+    //    message.channel.send('anh yeu em');
+    //}
+    //if(message.content === "!phuongthao"){
+    //   message.channel.send('anh yeu em');
+    //}
     if(message.content === "!zend" ){
         message.channel.send('fucc boi co tieng day cac ban');
     }
@@ -124,9 +124,9 @@ bot.on("message", async message => {
     if(message.content === "!hao"){
         message.channel.send('haohao kute')
     }
-//if(message.content === "!fatdean"){
- //   message.channel.send('Fat wa 0 i iu')
-//}
+    if(message.content === "!fatdean"){
+       message.channel.send('Fat wa 0 i iu')
+    }
     if(message.content === "!huykun"){
         message.channel.send('ja hanh ton aka boi phan boi')
     };
@@ -134,7 +134,7 @@ bot.on("message", async message => {
         message.channel.send('mike chan dùng dây thừng tự sát, dây thừng chết')
     };
 
-    if(message.content === "dmcs") {
+    if(message.content.includes ("dmcs")) {
         (message.channel.send("cong dau thang lon nay lai"));   
     }
     //if(message.content === "2106252") {
@@ -153,7 +153,7 @@ bot.on("message", async message => {
         message.channel.send(randombully);
     }
 
-    const fatto = ["admin cute hehe", "cali khat' nuoc'", "baka bakaaa", "vippro", "phải luôn vui vẻ và tươi trẻ he he"]
+    const fatto = ["10/10", "cali khat' nuoc'", "thích fatto hay gì kêu hoài z", "vippro", "hát nhạc wjbu đi fatto"]
     const randomfatto = fatto[Math.floor(Math.random() * fatto.length)]
     if (message.content === "fatto") {
         message.channel.send(randomfatto);
