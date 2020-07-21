@@ -14,45 +14,45 @@ bot.on('ready', function () {
 
 bot.on("message", async message => {
     
-    if (message.content === "hello") {
-        message.channel.send("lo con cac")
-    }
+    //if (message.content === "hello") {
+   //     message.channel.send("lo con cac")
+  //  }
 
-    if (message.content === "gioi") {
-        message.channel.send("chu ngu nhu may sao")
-    }
+  //  if (message.content === "gioi") {
+   //     message.channel.send("chu ngu nhu may sao")
+   // }
 
-    if (message.content === "twm") {
-        message.channel.send("thomng mimnh sieu cap")
-    }
+   // if (message.content === "twm") {
+   //     message.channel.send("thomng mimnh sieu cap")
+   // }
     
-    if (message.content === "van fuong") {
-        message.channel.send("lesor lord sao")
-    }
+    //if (message.content === "van fuong") {
+     //   message.channel.send("lesor lord sao")
+   // }
     
-    if (message.content === "nhat ha") {
-        message.channel.send("fuckgirl 2k6 du cac anh vao tu")
-    }
+  //  if (message.content === "nhat ha") {
+     //   message.channel.send("fuckgirl 2k6 du cac anh vao tu")
+  //  }
     
-    if (message.content === "minh thu") {
-        message.channel.send("j loli trong truyen thuyet sao")
-    }
+  //  if (message.content === "minh thu") {
+    //    message.channel.send("j loli trong truyen thuyet sao")
+  //  }
     
-    if (message.content === "hoa cai") {
-        message.channel.send("sống ở đời nói phải giữ lời, đừng như con cu biết bay 👌")
-    }
+   // if (message.content === "hoa cai") {
+    //    message.channel.send("sống ở đời nói phải giữ lời, đừng như con cu biết bay 👌")
+   // }
     
-    if (message.content === "mina") {
-        message.channel.send("hen cac ban vao 20/7")
-    }
+   // if (message.content === "mina") {
+    //    message.channel.send("hen cac ban vao 20/7")
+   // }
     
-    if (message.content === "nhi") {
-        message.channel.send("tụi mày khóc chắc gì đã khổ, tuy Nhi cười nhưng máu đổ trong pant")
-    }
+   // if (message.content === "nhi") {
+    //    message.channel.send("tụi mày khóc chắc gì đã khổ, tuy Nhi cười nhưng máu đổ trong pant")
+    //}
     
-    if (message.content === "nguyen jung~ va lil cuong") {
-        message.channel.send("dong huong tot, mot like")
-    }
+  //  if (message.content === "nguyen jung~ va lil cuong") {
+     //   message.channel.send("dong huong tot, mot like")
+   // }
 
 
     if(message.content === '!rule'){
@@ -142,39 +142,39 @@ bot.on("message", async message => {
     //}
     const mk = ["Gia Lai thich nhau lai rai", "nhớ đốt phong long nha mk", "ko muon noi gi"]
     const randommk = mk[Math.floor(Math.random() * mk.length)]
-    if (message.content === "mk") {
+    if (message.content === ":mk") {
         message.channel.send(randommk);
     }
 
 
-    const bully = [ "thằng đầu buồi giẻ rách này", "nghe mà đau nát trái tim này", "mẹ cái bọn lesor", "NamKey buscu Backy", "đừng chửi em nữa, yêu em đi", "hic cai loz, im lang", "ngoan ngoan", "nếu cảm thấy mệt quá, em cho mượn bờ vide, thì thầm em nói nhỏ, tổng cộng năm trăm hai", "hic là năm lít", "Ai là đứa trẻ ngoan nàoooo? Đéo phải mày, cút.", "wjbu thì im mồm", "Phải tôi tôi lại đấm cho mấy fat", "bớt đùa đi, dạo này tao không còn hiền nữa đâu", "yêu em đừng để em buồn, em buồn anh vẫn phải yêu em <3", "tự làm bot mà chơi, chơi chùa là 300k"]
-    const randombully = bully[Math.floor(Math.random() * bully.length)] 
-    if ((message.content === "hic") || (message.content === "Hic")) {
-        message.channel.send(randombully);
-    }
+   // const bully = [ "thằng đầu buồi giẻ rách này", "nghe mà đau nát trái tim này", "mẹ cái bọn lesor", "NamKey buscu Backy", "đừng chửi em nữa, yêu em đi", "hic cai loz, im lang", "ngoan ngoan", "nếu cảm thấy mệt quá, em cho mượn bờ vide, thì thầm em nói nhỏ, tổng cộng năm trăm hai", "hic là năm lít", "Ai là đứa trẻ ngoan nàoooo? Đéo phải mày, cút.", "wjbu thì im mồm", "Phải tôi tôi lại đấm cho mấy fat", "bớt đùa đi, dạo này tao không còn hiền nữa đâu", "yêu em đừng để em buồn, em buồn anh vẫn phải yêu em <3", "tự làm bot mà chơi, chơi chùa là 300k"]
+  //  const randombully = bully[Math.floor(Math.random() * bully.length)] 
+   // if ((message.content === "hic") || (message.content === "Hic")) {
+     //   message.channel.send(randombully);
+   // }
 
     const fatto = ["10/10", "cali khat' nuoc'", "thích fatto hay gì kêu hoài z", "vippro", "hát nhạc wjbu đi fatto"]
     const randomfatto = fatto[Math.floor(Math.random() * fatto.length)]
-    if (message.content === "fatto") {
+    if (message.content === ":fatto") {
         message.channel.send(randomfatto);
     }
 
     const fatdean = ["dai ja xao loz", "mập quá anh ơi", "thích tò mò không mà kêu hoài z", "an cut’ an db"]
     const randomfatdean = fatdean[Math.floor(Math.random() * fatdean.length)]
-    if (message.content === "fat dean") {
+    if (message.content === ":fat dean") {
         message.channel.send(randomfatdean);
     }
     const theanh = ["Đi ăn chè thái hok?", "mẹ cái thằng simp đội loz lên đầu", "duy trì tình bạn bằng 100k bạn nhé"]
     const randomtheanh = theanh[Math.floor(Math.random() * theanh.length)]
-    if (message.content === "the anh") {
+    if (message.content === ":the anh") {
         message.channel.send(randomtheanh);
     }
 
-    const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
-    const randomgn = gn[Math.floor(Math.random() * gn.length)]
-    if ((message.content.includes("ngu ngon")) || (message.content.includes("Ngu ngon"))) {
-        message.channel.send(randomgn);
-    }
+   // const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
+   // const randomgn = gn[Math.floor(Math.random() * gn.length)]
+   // if ((message.content.includes("ngu ngon")) || (message.content.includes("Ngu ngon"))) {
+     //   message.channel.send(randomgn);
+  //  }
 
     if(message.content === "Oblivion link") {
         (message.channel.send("https://discord.gg/GQzDBPE"));    
