@@ -241,6 +241,16 @@ bot.on("message", async message => {
        (message.channel.send(randomZoc));
        
    }
+    
+   const bth = ["bánh mì Thổ Nhĩ Kỳ", "xôi gà", "bánh mì", "bún real", "bún chả ngon", "ăn cứt ăn đầu buồi", "an pho", "xôi bắp", "cơm chiên trân châu", "ăn chay", "nhịn",
+                "ăn iem", "súp cua", "mì gói", "mì ổ", "ăn đéo gì ngủ tiếp đi", "ăn loz", "về bảo mẹ nấu cho mà ăn", "mapdjt rồi còn ăn sao", "bún bò Huế", "bánh canh cá nóc",
+                "mì quảng là lựa chọn số 1", "cơm chiên trứng", "cơm tấm của chị Tấm", "mì indomie nhưng theo cảm nhận của tôi thì tiểu nhị ngon hơn hic", "nghèo thì ra lề đường mua gói xôi 5 ngàn mà ăn"]
+   const randombth = bth[Math.floor(Math.random() * bth.length)]
+   if ((message.content.includes("sáng nay ăn gì")) || (message.content.includes("Sáng nay ăn gì")) || (message.content.includes("sang nay an gi")) || (message.content.includes("Sang nay an gi"))) 
+   {
+        (message.channel.send(randombth))
+   }
+                                                                                                                              
    const aud = ["https://imgur.com/dQoMckk","https://imgur.com/5uC2Rro","https://imgur.com/lWJYAM4","https://imgur.com/SqhEkWr","https://imgur.com/t7QP3xQ","https://imgur.com/5n348C7","https://imgur.com/bM3YIMy","https://imgur.com/7kxoTUv","https://imgur.com/d4j1fsA"]
    const randomAud = aud[Math.floor(Math.random() * aud.length)]
    if((message.content.includes("aujam")) || (message.content.includes("audam"))|| (message.content.includes("Aujam"))|| (message.content.includes("Audam")))
