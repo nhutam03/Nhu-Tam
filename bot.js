@@ -15,7 +15,8 @@ bot.on('ready', function () {
 bot.on("message", async message => {
 
       if (message.content === "chuyện buồn của Tâm") {
-          message.channel.send("đôi khi tôi sẽ khó chịu hoặc bực bội những cái vô lý, nhưng những lúc như vậy tại sao không ai an ủi tôi mà lại đi chứng minh cái sai của tôi, nó sẽ làm tôi hết khó chịu sao, chỉ cần an ủi vỗ về tôi thì tôi bình thường lại rồi cơ mà, sao các người cứ làm tổn thương tôi vậy, thậm chí tôi còn vô hình trong mắt các người mà phải không")
+          message.channel.send("đôi khi tôi sẽ khó chịu hoặc bực bội những cái vô lý, nhưng những lúc như vậy tại sao không ai an ủi tôi mà lại đi chứng minh cái sai của tôi
+nó sẽ làm tôi hết khó chịu sao, chỉ cần an ủi vỗ về tôi thì tôi bình thường lại rồi cơ mà, sao các người cứ làm tổn thương tôi vậy, thậm chí tôi còn vô hình trong mắt các người mà phải không")
       }
     
     //if (message.content === "hello") {
