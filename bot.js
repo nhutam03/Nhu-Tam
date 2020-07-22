@@ -16,53 +16,53 @@ bot.on('ready', function () {
 
 bot.on("message", async message => {
       
-    //if (message.content === "hello") {
-   //     message.channel.send("lo con cac")
-  //  }
+    /*if (message.content === "hello") {
+       message.channel.send("lo con cac")
+   }
 
-  //  if (message.content === "gioi") {
-   //     message.channel.send("chu ngu nhu may sao")
-   // }
+    if (message.content === "gioi") {
+        message.channel.send("chu ngu nhu may sao")
+    }
 
-   // if (message.content === "twm") {
-   //     message.channel.send("thomng mimnh sieu cap")
-   // }
+    if (message.content === "twm") {
+        message.channel.send("thomng mimnh sieu cap")
+    }
     
-    //if (message.content === "van fuong") {
-     //   message.channel.send("lesor lord sao")
-   // }
+    if (message.content === "van fuong") {
+        message.channel.send("lesor lord sao")
+    }
     
-  //  if (message.content === "nhat ha") {
-     //   message.channel.send("fuckgirl 2k6 du cac anh vao tu")
-  //  }
+    if (message.content === "nhat ha") {
+        message.channel.send("fuckgirl 2k6 du cac anh vao tu")
+    }
     
-  //  if (message.content === "minh thu") {
-    //    message.channel.send("j loli trong truyen thuyet sao")
-  //  }
+    if (message.content === "minh thu") {
+        message.channel.send("j loli trong truyen thuyet sao")
+   }
     
-   // if (message.content === "hoa cai") {
-    //    message.channel.send("sống ở đời nói phải giữ lời, đừng như con cu biết bay 👌")
-   // }
+    if (message.content === "hoa cai") {
+        message.channel.send("sống ở đời nói phải giữ lời, đừng như con cu biết bay 👌")
+    }
     
-   // if (message.content === "mina") {
-    //    message.channel.send("hen cac ban vao 20/7")
-   // }
+    if (message.content === "mina") {
+        message.channel.send("hen cac ban vao 20/7")
+    }
     
-   // if (message.content === "nhi") {
-    //    message.channel.send("tụi mày khóc chắc gì đã khổ, tuy Nhi cười nhưng máu đổ trong pant")
-    //}
+    if (message.content === "nhi") {
+       message.channel.send("tụi mày khóc chắc gì đã khổ, tuy Nhi cười nhưng máu đổ trong pant")
+    }
     
-  //  if (message.content === "nguyen jung~ va lil cuong") {
-     //   message.channel.send("dong huong tot, mot like")
-   // }
+   if (message.content === "nguyen jung~ va lil cuong") {
+       message.channel.send("dong huong tot, mot like")
+    }*/
 
 
     if(message.content === '!rule'){
         message.channel.send('luat concac ne cac ban oi, quay len');
     }
-//if(message.content === 'minhthu'){
-//    message.channel.send('girl dot van');
-//}
+/*if(message.content === 'minhthu'){
+    message.channel.send('girl dot van');
+}*/
     if(message.content === '!Thư'){
         message.channel.send('jau thua merr');
     }
@@ -171,17 +171,12 @@ bot.on("message", async message => {
     if (message.content === ":the anh") {
         message.channel.send(randomtheanh);
     }
-    //  const sad = "đôi khi tôi sẽ khó chịu hoặc bực bội những cái vô lý, những lúc như vậy tại sao không ai an ủi tôi mà lại đi chứng minh cái sai của tôi, nó sẽ làm tôi hết khó chịu sao, chỉ cần an ủi vỗ về tôi thì tôi bình thường lại rồi cơ mà, khó đến vậy sao"
-     //if (message.content === "Chuyện buồn của Tâm") {
-     //     message.channel.send(sad)
-      //}
      
-
-   // const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
-   // const randomgn = gn[Math.floor(Math.random() * gn.length)]
-   // if ((message.content.includes("ngu ngon")) || (message.content.includes("Ngu ngon"))) {
-     //   message.channel.send(randomgn);
-  //  }
+   /* const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
+   const randomgn = gn[Math.floor(Math.random() * gn.length)]
+    if ((message.content.includes("ngu ngon")) || (message.content.includes("Ngu ngon"))) {
+        message.channel.send(randomgn);
+    }*/
 
     if(message.content === "Oblivion link") {
         (message.channel.send("https://discord.gg/GQzDBPE"));    
@@ -201,29 +196,29 @@ bot.on("message", async message => {
     if(message.content.includes("Cường óc chó")){
         message.channel.send('Coi chừng bố mày')} 
     
-   // if(message.content === "google") {
-    //    (message.channel.send("http://hss3uro2hsxfogfq.onion/"));            
-    //}
-    //if((message.content === "quote") || (message.content === "Quote"))  {
-      //  (message.channel.send(randomQuote));
-    //}
+   /* if(message.content === "google") {
+       (message.channel.send("http://hss3uro2hsxfogfq.onion/"));            
+    }
+    if((message.content === "quote") || (message.content === "Quote"))  {
+        (message.channel.send(randomQuote));
+    }
    
-    //if((message.content.includes("hôm nay ăn gì")) || (message.content.includes("Hôm nay ăn gì"))|| (message.content.includes("Hom nay an gi"))|| (message.content.includes("hom nay an gi")))
-    //{
-    //(message.channel.send(randomZoc));
-    //}
+    if((message.content.includes("hôm nay ăn gì")) || (message.content.includes("Hôm nay ăn gì"))|| (message.content.includes("Hom nay an gi"))|| (message.content.includes("hom nay an gi")))
+    {
+    (message.channel.send(randomZoc));
+    }
 
-    //if((message.content.includes("aujam")) || (message.content.includes("audam"))|| (message.content.includes("Aujam"))|| (message.content.includes("Audam")))
-    //{
-      //  (message.channel.send(randomAud));
+    if((message.content.includes("aujam")) || (message.content.includes("audam"))|| (message.content.includes("Aujam"))|| (message.content.includes("Audam")))
+    {
+        (message.channel.send(randomAud));
 
-    //}
+    }*/
 
-    //if(message.content.includes("sức đề kháng yếu")||message.content.includes("suc de khang yeu")||message.content.includes("sức đề kháng có yếu ")) {
-      //  var text = message.content.split(' ').slice(1).join(' ');
-        //if(text) return message.reply(" ôi bạn ơi, sức đề kháng của bạn yếu là do bạn không chơi đồ đấy");
-         //message.channel.reply(text);
-   // }
+    if(message.content.includes("sức đề kháng yếu")||message.content.includes("suc de khang yeu")||message.content.includes("sức đề kháng có yếu ")) {
+        var text = message.content.split(' ').slice(1).join(' ');
+        if(text) return message.reply(" ôi bạn ơi, sức đề kháng của bạn yếu là do bạn không chơi đồ đấy");
+         message.channel.reply(text);
+    }
    const quote = ["if he's cheating, cheat back-Support your man in everything he does","quy tắc tạo nên cuộc sống, bất quy tắc tạo nên cuộc đời","thành công khi không yêu là tránh dc thất bại trên đường tình", " An oan giang ho day tao lon - Anh em choi cho' day tao khon","Tuy rang nu cuoi luon no tren moi, nhung cuoc song cua toi chua bao gio la on", "dieu thuoc tan nhat len hut lai, ban khon nan khong choi lai lan 2", "co buom ma khong cho dit thi cat me buom di", "doi hoi ha va bon chen, con nguoi nho nhen va ja tao", "ot du cay em van an ca vo, em nguc nho anh co bo em khong?", 
    "j ban da quay vao o mat luot","goi nguc em la oreo boi vi anh muon xoay va liem","VÌ TỔ QUỐC XÃ HỘI CHỦ NGHĨA, VÌ LÝ TƯỞNG CỦA BÁC HỒ VĨ ĐẠI, SẲN SÀNG." ,"ban than khong co, nhung ban cho tao co thua", "nguoi ta da gang noi doi, thi minh ngai gi ma ko ja vo tin","che anh ngheo? den luc thay anh boc dau thi dung co tiec", "co tien 2 chu anh em, het tien 4 chu anh em cai loz", "Cuoc doi tao den luot may len mat a? chua du tu cach dau", "cuoc song ma, ai cung phai di tu thoi", "toi nghe, toi thay, toi biet. nhung toi muon ja mu ja cam ja diec, de xem ban jien tiep ra sao",
    "danh dit em bang thuoc, Penthouse o Binh Phuoc","gẶm nhẤm kỶ niỆm, trÁng miỆng nỖi buỒn","troi em vao audi, penthouse o viet tri","ngay xua cung ta the chung huong, ma nay cung han dit rung giuong ?","Goi em la mua vi anh rat thich nghe tieng rain cua em","https://imgur.com/qnAe9PA","Luat jang ho em choi bang sung may, Ban lung loz dua nao noi iu anh","Vi tien do bat canh chua, ae xuong mau van thua cai loz","duong tao di co quy nhan fu ho, viec tao lam co quy ju bao ke","Anh yeu em nhu Bac Ho yeu nuoc, mat em roi nhu Phap mat Dong Duong","vu hoi cang, co phai em dang vang hoi cu","anh khong yeu em thi em yeu nguoi khac, luat jang ho khong cho fep em co don","lam lil cuon ren be bé, penthhouse ben ben' nghe'","Ho cuoi toi vi toi ko jong ho, Toi cuoi ho vi ho dang cuoi toi","Yeu em dung de em buon, em buon em tat nguon di pay","nghe dau anh thich fa tra, nha em co am anh co chen k"," bot dua di t ko con vui tinh nhu truoc dau","khoi chua tan sao voi quen tinh ban, thuoc chua tan sao vut tinh ae","https://imgur.com/p4bDu3L"," me oi con chan om chan om goi ngu roi, con muon om con nha nguoi ta ngu co"]
