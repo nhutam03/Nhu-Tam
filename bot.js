@@ -171,10 +171,10 @@ bot.on("message", async message => {
     if (message.content === ":the anh") {
         message.channel.send(randomtheanh);
     }
-      const sad = "đôi khi tôi sẽ khó chịu hoặc bực bội những cái vô lý, những lúc như vậy tại sao không ai an ủi tôi mà lại đi chứng minh cái sai của tôi, nó sẽ làm tôi hết khó chịu sao, chỉ cần an ủi vỗ về tôi thì tôi bình thường lại rồi cơ mà, khó đến vậy sao"
-     if (message.content === "Chuyện buồn của Tâm") {
-          message.channel.send(sad)
-      }
+    //  const sad = "đôi khi tôi sẽ khó chịu hoặc bực bội những cái vô lý, những lúc như vậy tại sao không ai an ủi tôi mà lại đi chứng minh cái sai của tôi, nó sẽ làm tôi hết khó chịu sao, chỉ cần an ủi vỗ về tôi thì tôi bình thường lại rồi cơ mà, khó đến vậy sao"
+     //if (message.content === "Chuyện buồn của Tâm") {
+     //     message.channel.send(sad)
+      //}
      
 
    // const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
