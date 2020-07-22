@@ -162,6 +162,11 @@ bot.on("message", async message => {
     if (message.content === ":the anh") {
         message.channel.send(randomtheanh);
     }
+    
+    const sad = "đôi khi tôi khó chịu một cách vô lý, nhưng chỉ cần an ủi xoa dịu tôi là tôi lại bình thường trở lại. vậy sao không an ủi mà mọi người lại cố chứng minh tôi vô lý vậy, nó sẽ làm tôi ổn hơn sao, thực sự nó khiến tôi buồn thêm đấy"
+    if (message.content === "chuyen buon cua Tam") {
+        message.channel.send(sad)
+    }
      
    /* const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
    const randomgn = gn[Math.floor(Math.random() * gn.length)]
