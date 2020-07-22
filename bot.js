@@ -19,39 +19,30 @@ bot.on("message", async message => {
     /*if (message.content === "hello") {
        message.channel.send("lo con cac")
    }
-
     if (message.content === "gioi") {
         message.channel.send("chu ngu nhu may sao")
     }
-
     if (message.content === "twm") {
         message.channel.send("thomng mimnh sieu cap")
-    }
-    
+    } 
     if (message.content === "van fuong") {
         message.channel.send("lesor lord sao")
     }
-    
     if (message.content === "nhat ha") {
         message.channel.send("fuckgirl 2k6 du cac anh vao tu")
     }
-    
     if (message.content === "minh thu") {
         message.channel.send("j loli trong truyen thuyet sao")
-   }
-    
+   } 
     if (message.content === "hoa cai") {
         message.channel.send("sống ở đời nói phải giữ lời, đừng như con cu biết bay 👌")
-    }
-    
+    }  
     if (message.content === "mina") {
         message.channel.send("hen cac ban vao 20/7")
     }
-    
     if (message.content === "nhi") {
        message.channel.send("tụi mày khóc chắc gì đã khổ, tuy Nhi cười nhưng máu đổ trong pant")
-    }
-    
+    } 
    if (message.content === "nguyen jung~ va lil cuong") {
        message.channel.send("dong huong tot, mot like")
     }*/
@@ -196,23 +187,7 @@ bot.on("message", async message => {
     if(message.content.includes("Cường óc chó")){
         message.channel.send('Coi chừng bố mày')} 
     
-   /* if(message.content === "google") {
-       (message.channel.send("http://hss3uro2hsxfogfq.onion/"));            
-    }
-    if((message.content === "quote") || (message.content === "Quote"))  {
-        (message.channel.send(randomQuote));
-    }
-   
-    if((message.content.includes("hôm nay ăn gì")) || (message.content.includes("Hôm nay ăn gì"))|| (message.content.includes("Hom nay an gi"))|| (message.content.includes("hom nay an gi")))
-    {
-    (message.channel.send(randomZoc));
-    }
-
-    if((message.content.includes("aujam")) || (message.content.includes("audam"))|| (message.content.includes("Aujam"))|| (message.content.includes("Audam")))
-    {
-        (message.channel.send(randomAud));
-
-    }*/
+  
 
     if(message.content.includes("sức đề kháng yếu")||message.content.includes("suc de khang yeu")||message.content.includes("sức đề kháng có yếu ")) {
         var text = message.content.split(' ').slice(1).join(' ');
@@ -246,7 +221,7 @@ bot.on("message", async message => {
     
    const bth = ["bánh mì Thổ Nhĩ Kỳ", "xôi gà", "bánh mì", "bún real", "bún chả ngon", "ăn cứt ăn đầu buồi", "an pho", "xôi bắp", "cơm chiên trân châu", "ăn chay", "nhịn", "xôi gấc", "mì thập cẩm các thứ đi em",
                 "ăn iem", "súp cua", "mì gói", "mì ổ", "ăn đéo gì ngủ tiếp đi", "ăn loz", "về bảo mẹ nấu cho mà ăn", "mapdjt rồi còn ăn sao", "bún bò Huế", "bánh canh cá nóc", "xôi bắp", "ăn em gái loli mup’ rup",
-                "mì quảng là lựa chọn số 1", "cơm chiên trứng", "cơm tấm của chị Tấm", "mì indomie nhưng theo cảm nhận của tôi thì tiểu nhị ngon hơn hic", "nghèo thì ra lề đường mua gói xôi 5 ngàn mà ăn"
+                "mì quảng là lựa chọn số 1", "cơm chiên trứng", "cơm tấm của chị Tấm", "mì indomie nhưng theo cảm nhận của tôi thì tiểu nhị ngon hơn hic", "nghèo thì ra lề đường mua gói xôi 5 ngàn mà ăn",
                 "mì ốp la đi em", "bánh mì xíu mại", "xôi bó gà", "bánh bao to bự", "ra family mart có gì ăn nấy"]
    const randombth = bth[Math.floor(Math.random() * bth.length)]
    if ((message.content.includes("sáng nay ăn gì")) || (message.content.includes("Sáng nay ăn gì")) || (message.content.includes("sang nay an gi")) || (message.content.includes("Sang nay an gi"))) 
