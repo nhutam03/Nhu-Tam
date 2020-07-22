@@ -1,7 +1,8 @@
 const Discord = require("discord.js");
 const PREFIX = ':'
 const fortunes = [ "không", "đoán xem", "tôi không nghe, tôi không thấy", "đi ngủ để mer đi", "mẹ cái bọn lesor", "thằng đầu buổi giẻ rách", "cut' me may di"]
-const sad = "đôi khi tôi sẽ khó chịu hoặc bực bội những cái vô lý, nhưng những lúc như vậy tại sao không ai an ủi tôi mà lại đi chứng minh cái sai của tôi, nó sẽ làm tôi hết khó chịu sao, chỉ cần an ủi vỗ về tôi thì tôi bình thường lại rồi cơ mà, sao các người cứ làm tổn thương tôi vậy, thậm chí tôi còn vô hình trong mắt các người mà phải không"
+
+
 
 if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config();
@@ -14,11 +15,7 @@ bot.on('ready', function () {
 })
 
 bot.on("message", async message => {
-
-      if (message.content === "Chuyện buồn của Tâm") {
-          message.channel.send(sad)
-      }
-    
+      
     //if (message.content === "hello") {
    //     message.channel.send("lo con cac")
   //  }
@@ -174,6 +171,11 @@ bot.on("message", async message => {
     if (message.content === ":the anh") {
         message.channel.send(randomtheanh);
     }
+      const sad = "đôi khi tôi sẽ khó chịu hoặc bực bội những cái vô lý, những lúc như vậy tại sao không ai an ủi tôi mà lại đi chứng minh cái sai của tôi, nó sẽ làm tôi hết khó chịu sao, chỉ cần an ủi vỗ về tôi thì tôi bình thường lại rồi cơ mà, khó đến vậy sao"
+     if (message.content === "Chuyện buồn của Tâm") {
+          message.channel.send(sad)
+      }
+     
 
    // const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
    // const randomgn = gn[Math.floor(Math.random() * gn.length)]
