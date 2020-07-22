@@ -234,7 +234,7 @@ bot.on("message", async message => {
         (message.channel.send(randombth))
    }
                                                                                                                               
-   const aud = ["https://imgur.com/dQoMckk","https://imgur.com/5uC2Rro","https://imgur.com/lWJYAM4","https://imgur.com/SqhEkWr","https://imgur.com/t7QP3xQ","https://imgur.com/5n348C7","https://imgur.com/bM3YIMy","https://imgur.com/7kxoTUv","https://imgur.com/d4j1fsA"]
+   const aud = ["https://imgur.com/dQoMckk","https://imgur.com/5uC2Rro","https://imgur.com/lWJYAM4","https://imgur.com/SqhEkWr","https://imgur.com/t7QP3xQ","https://imgur.com/5n348C7","https://imgur.com/bM3YIMy","https://imgur.com/7kxoTUv","https://imgur.com/d4j1fsA", "https://cdn.discordapp.com/emojis/608330095094136844.png?v=1"]
    const randomAud = aud[Math.floor(Math.random() * aud.length)]
    if((message.content.includes("aujam")) || (message.content.includes("audam"))|| (message.content.includes("Aujam"))|| (message.content.includes("Audam")))
    {
