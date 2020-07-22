@@ -244,7 +244,8 @@ bot.on("message", async message => {
     
    const bth = ["bánh mì Thổ Nhĩ Kỳ", "xôi gà", "bánh mì", "bún real", "bún chả ngon", "ăn cứt ăn đầu buồi", "an pho", "xôi bắp", "cơm chiên trân châu", "ăn chay", "nhịn", "xôi gấc", "mì thập cẩm các thứ đi em",
                 "ăn iem", "súp cua", "mì gói", "mì ổ", "ăn đéo gì ngủ tiếp đi", "ăn loz", "về bảo mẹ nấu cho mà ăn", "mapdjt rồi còn ăn sao", "bún bò Huế", "bánh canh cá nóc", "xôi bắp", "ăn em gái loli mup’ rup",
-                "mì quảng là lựa chọn số 1", "cơm chiên trứng", "cơm tấm của chị Tấm", "mì indomie nhưng theo cảm nhận của tôi thì tiểu nhị ngon hơn hic", "nghèo thì ra lề đường mua gói xôi 5 ngàn mà ăn"]
+                "mì quảng là lựa chọn số 1", "cơm chiên trứng", "cơm tấm của chị Tấm", "mì indomie nhưng theo cảm nhận của tôi thì tiểu nhị ngon hơn hic", "nghèo thì ra lề đường mua gói xôi 5 ngàn mà ăn"
+                "mì ốp la đi em", "bánh mì xíu mại", "xôi bó gà", "bánh bao to bự", "ra family mart có gì ăn nấy"]
    const randombth = bth[Math.floor(Math.random() * bth.length)]
    if ((message.content.includes("sáng nay ăn gì")) || (message.content.includes("Sáng nay ăn gì")) || (message.content.includes("sang nay an gi")) || (message.content.includes("Sang nay an gi"))) 
    {
