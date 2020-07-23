@@ -191,7 +191,7 @@ bot.on("message", async message => {
          message.channel.send("chẳng có gì ngoài lời nói của tôi đâu")
     }
 
-    if (message.content.includes === 420163496655716363) {
+    if (message.content.includes(420163496655716363)) {
         message.channel.send("Tâm đã xoá app Discord, bạn có gì muốn nói với Tâm sao?")
     }
      
