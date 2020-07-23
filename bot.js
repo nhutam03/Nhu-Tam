@@ -164,17 +164,17 @@ bot.on("message", async message => {
     }
     
     const sad = "đôi khi tôi khó chịu một cách vô lý, nhưng chỉ cần an ủi xoa dịu tôi là tôi lại bình thường trở lại. vậy sao không an ủi mà mọi người lại cố chứng minh tôi vô lý vậy, nó sẽ làm tôi ổn hơn sao, thực sự nó khiến tôi buồn thêm đấy"
-    if (message.content === "chuyen buon cua Tam") {
+    if ((message.content.includes("chuyen buon cua Tam")) || (message.content.includes ("chuyen buon cua tam"))) {
         message.channel.send(sad)
     }
 
     const happy = "điều khiến tôi tốt hơn bây giờ là người làm tôi buồn an ủi tôi, nhưng chắc chắn là không có rồi, có khi họ còn chẳng để ý rằng tôi cảm thấy như nào nữa, và xem tôi là con người đáng ghét chẳng hạn, không có cách làm Tâm hết buồn rồi"
-    if (message.content === "cach lam Tam het buon") {
+    if ((message.content.includes("cach lam Tam het buon")) || (message.content.includes("cach lam tam het buon"))) {
         message.channel.send(happy)
     }
 
     const soul = "Tôi cảm thấy tôi thật thừa thãi ở đây, tôi có thể an ủi mọi người, nhưng tôi vẫn là người vô hình trong mắt tất cả, tôi cảm thấy thật buồn bã đến khóc lên, nhưng tôi có là gì đâu để mọi người phải để tâm đến đúng không, dù tôi có biến mất thì tất cả vẫn bình thường mà nhỉ, cũng phải thôi."
-    if (message.content === "suy nghi cua Tam") {
+    if ((message.content.includes("suy nghi cua Tam")) || (message.content.includes("suy nghi cua tam"))) {
         message.channel.send(soul)
     }
      
