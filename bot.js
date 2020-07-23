@@ -182,7 +182,7 @@ bot.on("message", async message => {
         message.channel.send(soul)
     }
 
-    if ((message.content.includes("Tam")) || (message.content.includes("tam"))) {
+    if ((message.content == "Tam") || (message.content == "tam")) {
          message.channel.send("tôi biết cái sv này đông người, dù có mất đi một người thì cũng chả quan trọng gì, nên tôi luôn là người vô hình ở đây, và khi tôi có như nào thì cũng chẳng ai quan tâm, chỉ có tôi phải tự lo cho mình thôi")
     }
 
@@ -191,9 +191,9 @@ bot.on("message", async message => {
     }
 
   //  let mention = message.mentions.users.first();
-    if (message.author === message.mentions.ures.first(420163496655716363)) {
-        message.channel.send("Tâm đã xoá app Discord, bạn có gì muốn nói với Tâm sao?")
-    } 
+  //  if (message.author === message.mentions.ures.first(420163496655716363)) {
+  //      message.channel.send("Tâm đã xoá app Discord, bạn có gì muốn nói với Tâm sao?")
+  //  } 
    /* const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
    const randomgn = gn[Math.floor(Math.random() * gn.length)]
     if ((message.content.includes("ngu ngon")) || (message.content.includes("Ngu ngon"))) {
