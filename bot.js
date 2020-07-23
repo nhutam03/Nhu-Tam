@@ -16,9 +16,9 @@ bot.on('ready', function () {
 
 bot.on("message", async message => {
     
-    if (message.content.includes("twm")) {
+   /* if (message.content.includes("twm")) {
         message.channel.send("Trong này sẽ có những commands về Tâm, quan tâm thì mò mà không thì thôi, sao cũng được.")
-    }
+    }*/
 
     /*if (message.content === "hello") {
        message.channel.send("lo con cac")
