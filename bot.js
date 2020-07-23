@@ -190,8 +190,8 @@ bot.on("message", async message => {
          message.channel.send("chẳng có gì ngoài lời nói của tôi đâu")
     }
 
-    let mention = message.mentions.users.first();
-    if (!mention) return message.channel.send("Tâm đã xoá app Discord, bạn có gì muốn nói với Tâm sao?")
+  //  let mention = message.mentions.users.first();
+   // if (!mention) return message.channel.send("Tâm đã xoá app Discord, bạn có gì muốn nói với Tâm sao?")
      
    /* const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
    const randomgn = gn[Math.floor(Math.random() * gn.length)]
