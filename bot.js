@@ -183,17 +183,17 @@ bot.on("message", async message => {
         message.channel.send(soul)
     }
 
-    //if ((message.content.includes("Tam")) || (message.content.includes("tam"))) {
-     //    message.channel.send("tôi biết cái sv này đông người, dù có mất đi một người thì cũng chả quan trọng gì, nên tôi luôn là người vô hình ở đây, và khi tôi có như nào thì cũng chẳng ai quan tâm, chỉ có tôi phải tự lo cho mình thôi")
-    //}
+    if ((message.content.includes("Tam")) || (message.content.includes("tam"))) {
+         message.channel.send("tôi biết cái sv này đông người, dù có mất đi một người thì cũng chả quan trọng gì, nên tôi luôn là người vô hình ở đây, và khi tôi có như nào thì cũng chẳng ai quan tâm, chỉ có tôi phải tự lo cho mình thôi")
+    }
 
     if ((message.content.includes("commands cua Kanna")) {
          message.channel.send("chẳng có gì ngoài lời nói của tôi đâu")
     }
 
-    if (message.content.includes(420163496655716363)) {
+   /* if (message.content.includes(420163496655716363)) {
         message.channel.send("Tâm đã xoá app Discord, bạn có gì muốn nói với Tâm sao?")
-    }
+    }*/
      
    /* const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
    const randomgn = gn[Math.floor(Math.random() * gn.length)]
