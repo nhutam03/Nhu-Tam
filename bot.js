@@ -183,9 +183,9 @@ bot.on("message", async message => {
         message.channel.send(soul)
     }
 
-    if ((message.content.includes("Tam")) || (message.content.includes("tam"))) {
-         message.channel.send("tôi biết cái sv này đông người, dù có mất đi một người thì cũng chả quan trọng gì, nên tôi luôn là người vô hình ở đây, và khi tôi có như nào thì cũng chẳng ai quan tâm, chỉ có tôi phải tự lo cho mình thôi")
-    }
+    //if ((message.content.includes("Tam")) || (message.content.includes("tam"))) {
+     //    message.channel.send("tôi biết cái sv này đông người, dù có mất đi một người thì cũng chả quan trọng gì, nên tôi luôn là người vô hình ở đây, và khi tôi có như nào thì cũng chẳng ai quan tâm, chỉ có tôi phải tự lo cho mình thôi")
+    //}
 
     if ((message.content.includes("commands cua Kanna")) {
          message.channel.send("chẳng có gì ngoài lời nói của tôi đâu")
