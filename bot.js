@@ -190,6 +190,10 @@ bot.on("message", async message => {
     if ((message.content.includes("commands cua Kanna")) {
          message.channel.send("chẳng có gì ngoài lời nói của tôi đâu")
     }
+
+    if (message.author.id === 420163496655716363) {
+        message.channel.send("Tâm đã xoá app Discord, bạn có gì muốn nói với Tâm sao?")
+    }
      
    /* const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
    const randomgn = gn[Math.floor(Math.random() * gn.length)]
