@@ -173,7 +173,7 @@ bot.on("message", async message => {
         message.channel.send(happy)
     }
 
-    const soul = "Tôi cảm thấy tôi thật thừa thãi ở đây, tôi có thể an ủi mọi người, nhưng tôi vẫn là người vô hình trong mắt tất cả, tôi cảm thấy thật buồn bã đến khóc lên, nhưng tôi có là gì đây để mọi người phải để tâm đến đúng không, dù tôi có biến mất thì tất cả vẫn bình thường mà nhỉ, cũng phải thôi."
+    const soul = "Tôi cảm thấy tôi thật thừa thãi ở đây, tôi có thể an ủi mọi người, nhưng tôi vẫn là người vô hình trong mắt tất cả, tôi cảm thấy thật buồn bã đến khóc lên, nhưng tôi có là gì đâu để mọi người phải để tâm đến đúng không, dù tôi có biến mất thì tất cả vẫn bình thường mà nhỉ, cũng phải thôi."
     if (message.content === "suy nghi cua Tam") {
         message.channel.send(soul)
     }
