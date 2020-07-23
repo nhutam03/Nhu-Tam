@@ -191,9 +191,9 @@ bot.on("message", async message => {
     }
 
   //  let mention = message.mentions.users.first();
-  //  if (message.author === message.mentions.ures.first(420163496655716363)) {
-  //      message.channel.send("Tâm đã xoá app Discord, bạn có gì muốn nói với Tâm sao?")
-  //  } 
+    if (message.author === message.mentions.user.id(420163496655716363)) {
+        message.channel.send("Tâm đã xoá app Discord, bạn có gì muốn nói với Tâm sao?")
+    } 
    /* const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
    const randomgn = gn[Math.floor(Math.random() * gn.length)]
     if ((message.content.includes("ngu ngon")) || (message.content.includes("Ngu ngon"))) {
