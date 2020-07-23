@@ -152,8 +152,8 @@ bot.on("message", async message => {
 
     const fatto = ["10/10", "cali khat' nuoc'", "thích fatto hay gì kêu hoài z", "vippro", "hát nhạc wjbu đi fatto"]
     const randomfatto = fatto[Math.floor(Math.random() * fatto.length)]
-    if (message.content === ":fatto") {
-        message.channel.send(randomfatto);
+    if ((message.content.includes("fatto")) || (message.content === "Phatto")))  {
+        message.channel.send("tôi đã từng bảo tôi có tình cảm với bạn, đúng thế, tôi từ chối bạn nhưng tôi chưa từng bảo tôi hết tình cảm với bạn cả, tôi cố gắng bỏ qua việc đấy để không tiếp tục tương lai không có kết quả được, bạn còn không muốn công khai tôi nữa cơ mà. bạn bảo tôi quá đáng khi nói với Tưởng Cù sao, tôi chỉ bảo đừng xài bot ở đây vì trước đó vài phút đã có 2 người dùng commands đó ở đấy, tôi có nói gì quá đáng sao? Tôi bảo Nguyên Nè câm vì nó cứ chọt miệng vào nói vô duyên cơ mà? Tôi hỏi tên tuổi người mới để biết mà xưng hô để biết mà nói chuyện thì là xâm phạm đời tư sao, tôi còn chẳng lạm quyền gì. Thay vì bảo tôi đừng vậy nữa hãy thoải mái đi, thì bạn cứ nói những điều để chứng minh tôi vô lý vậy. giờ tôi thành cái gai trong mắt bạn rồi đúng không, bạn muốn đá tôi khỏi chức mod lâu rồi chứ gì, chưa bao giờ tôi bảo là tôi không muốn làm nhưng lúc nào cũng có ý muốn đá tôi xuống. giờ thì bạn làm được rồi đấy, có niềm vui mới có tất cả rồi nhỉ, tốt thôi, dù sao tôi cũng chẳng là gì");
     }
 
     const fatdean = ["dai ja xao loz", "mập quá anh ơi", "thích tò mò không mà kêu hoài z", "an cut’ an db"]
