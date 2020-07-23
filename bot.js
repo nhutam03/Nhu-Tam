@@ -191,7 +191,7 @@ bot.on("message", async message => {
     }
 
   //  let mention = message.mentions.users.first();
-    if (message.author === message.mentions.user.id(420163496655716363)) {
+    if (message.author === message.mentions.users.id(420163496655716363)) {
         message.channel.send("Tâm đã xoá app Discord, bạn có gì muốn nói với Tâm sao?")
     } 
    /* const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
