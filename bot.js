@@ -167,7 +167,7 @@ bot.on("message", async message => {
         message.channel.send(randomtheanh);
     }
     
-    const sad = "đôi khi tôi khó chịu một cách vô lý, nhưng chỉ cần an ủi xoa dịu tôi là tôi lại bình thường trở lại. vậy sao không an ủi mà mọi người lại cố chứng minh tôi vô lý vậy, nó sẽ làm tôi ổn hơn sao, thực sự nó khiến tôi buồn thêm đấy"
+  /*  const sad = "đôi khi tôi khó chịu một cách vô lý, nhưng chỉ cần an ủi xoa dịu tôi là tôi lại bình thường trở lại. vậy sao không an ủi mà mọi người lại cố chứng minh tôi vô lý vậy, nó sẽ làm tôi ổn hơn sao, thực sự nó khiến tôi buồn thêm đấy"
     if ((message.content.includes("chuyen buon cua Tam")) || (message.content.includes ("chuyen buon cua tam"))) {
         message.channel.send(sad)
     }
@@ -188,7 +188,7 @@ bot.on("message", async message => {
 
     if (message.content.includes("commands cua Kanna")) {
          message.channel.send("chẳng có gì ngoài lời nói của tôi đâu")
-    }
+    }*/
 
   //  let mention = message.mentions.users.first();
   //  if (message.author === message.mentions.users.id(420163496655716363)) {
