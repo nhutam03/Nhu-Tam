@@ -297,7 +297,7 @@ bot.on("message", async message => {
             break;
         }
         case "help": {
-            message.channel.send("Tôi là con bot vô dụng, tôi không giúp được ai cả hic. Nhưng chửi nhau set ke`o dam' nhau thì oce. Nhưng chủ tôi đi rồi.");
+            message.channel.send("Tôi là con bot vô dụng, tôi không giúp được ai cả hic. Nhưng chửi nhau set ke`o dam' nhau thì oce. Nhưng chủ tôi đang buồn nên không đánh đấm gì đâu.");
             break;
         }
         case "talk": {
