@@ -44,9 +44,7 @@ bot.on("message", async message => {
     if (message.content === "mina") {
         message.channel.send("hen cac ban vao 20/7")
     }
-    if (message.content === "nhi") {
-       message.channel.send("tụi mày khóc chắc gì đã khổ, tuy Nhi cười nhưng máu đổ trong pant")
-    } 
+    
    if (message.content === "nguyen jung~ va lil cuong") {
        message.channel.send("dong huong tot, mot like")
     }*/
@@ -142,13 +140,11 @@ bot.on("message", async message => {
     if (message.content === ":mk") {
         message.channel.send(randommk);
     }
-
-
-   // const bully = [ "thằng đầu buồi giẻ rách này", "nghe mà đau nát trái tim này", "mẹ cái bọn lesor", "NamKey buscu Backy", "đừng chửi em nữa, yêu em đi", "hic cai loz, im lang", "ngoan ngoan", "nếu cảm thấy mệt quá, em cho mượn bờ vide, thì thầm em nói nhỏ, tổng cộng năm trăm hai", "hic là năm lít", "Ai là đứa trẻ ngoan nàoooo? Đéo phải mày, cút.", "wjbu thì im mồm", "Phải tôi tôi lại đấm cho mấy fat", "bớt đùa đi, dạo này tao không còn hiền nữa đâu", "yêu em đừng để em buồn, em buồn anh vẫn phải yêu em <3", "tự làm bot mà chơi, chơi chùa là 300k"]
-  //  const randombully = bully[Math.floor(Math.random() * bully.length)] 
-   // if ((message.content === "hic") || (message.content === "Hic")) {
-     //   message.channel.send(randombully);
-   // }
+    const bully = [ "thằng đầu buồi giẻ rách này", "nghe mà đau nát trái tim này", "mẹ cái bọn lesor", "NamKey buscu Backy", "đừng chửi em nữa, yêu em đi", "hic cai loz, im lang", "ngoan ngoan", "nếu cảm thấy mệt quá, em cho mượn bờ vide, thì thầm em nói nhỏ, tổng cộng năm trăm hai", "hic là năm lít", "Ai là đứa trẻ ngoan nàoooo? Đéo phải mày, cút.", "wjbu thì im mồm", "Phải tôi tôi lại đấm cho mấy fat", "bớt đùa đi, dạo này tao không còn hiền nữa đâu", "yêu em đừng để em buồn, em buồn anh vẫn phải yêu em <3", "tự làm bot mà chơi, chơi chùa là 300k"]
+    const randombully = bully[Math.floor(Math.random() * bully.length)] 
+    if (message.content === ":hic") {
+        message.channel.send(randombully);
+    }
 
     
     
@@ -158,6 +154,12 @@ bot.on("message", async message => {
 
     if (message.content === ":ja khang") {
         message.channel.send("chim cúc chiên bơ ngoo si tks")
+    }
+    if (message.content === ":nhi") {
+       message.channel.send("tụi mày khóc chắc gì đã khổ, tuy Nhi cười nhưng máu đổ trong pant")
+    } 
+    if (message.content === ":fatto") {
+        message.channel.send("hát nhạc wjbu cho kanna nghe nào anh zai")
     }
     const fatdean = ["dai ja xao loz", "mập quá anh ơi", "thích tò mò không mà kêu hoài z", "an cut’ an db"]
     const randomfatdean = fatdean[Math.floor(Math.random() * fatdean.length)]
