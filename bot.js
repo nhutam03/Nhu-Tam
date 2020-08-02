@@ -18,7 +18,7 @@ bot.on("message", async message => {
     
    /* if (message.content.includes("twm")) {
         message.channel.send("Trong này sẽ có những commands về Tâm, quan tâm thì mò mà không thì thôi, sao cũng được.")
-    }*/
+    }
 
     if (message.content === ":hello") {
        message.channel.send("lo con cac")
@@ -38,7 +38,7 @@ bot.on("message", async message => {
     if (message.content === ":minh thu") {
         message.channel.send("j loli trong truyen thuyet sao")
    } 
-   /* if (message.content === ":hoa cai") {
+    if (message.content === ":hoa cai") {
         message.channel.send("sống ở đời nói phải giữ lời, đừng như con cu biết bay 👌")
     }  
     if (message.content === "mina") {
