@@ -20,25 +20,25 @@ bot.on("message", async message => {
         message.channel.send("Trong này sẽ có những commands về Tâm, quan tâm thì mò mà không thì thôi, sao cũng được.")
     }*/
 
-    /*if (message.content === "hello") {
+    if (message.content === ":hello") {
        message.channel.send("lo con cac")
    }
    
-    if (message.content === "gioi") {
+    if (message.content === ":gioi") {
         message.channel.send("chu ngu nhu may sao")
     }
 
     } 
-    if (message.content === "van fuong") {
+    if (message.content === ":van fuong") {
         message.channel.send("lesor lord sao")
     }
-    if (message.content === "nhat ha") {
+    if (message.content === ":nhat ha") {
         message.channel.send("fuckgirl 2k6 du cac anh vao tu")
     }
-    if (message.content === "minh thu") {
+    if (message.content === ":minh thu") {
         message.channel.send("j loli trong truyen thuyet sao")
    } 
-    if (message.content === "hoa cai") {
+   /* if (message.content === ":hoa cai") {
         message.channel.send("sống ở đời nói phải giữ lời, đừng như con cu biết bay 👌")
     }  
     if (message.content === "mina") {
@@ -209,7 +209,7 @@ bot.on("message", async message => {
         (message.channel.send("https://discord.gg/GQzDBPE"));    
     }
     if(message.content === "Dogevn link") {
-        (message.channel.send("https://discord.gg/M8FTp5D"));    
+        (message.channel.send("https://discord.gg/QfGbBY5"));    
     }
 
     if(message.content.includes("mạng lag")){
