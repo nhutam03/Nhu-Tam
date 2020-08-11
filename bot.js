@@ -154,6 +154,9 @@ bot.on("message", async message => {
     if (message.content === ":vi ngoo") {
         message.channel.send("ngoo ngok que’ hok biet lenh z")
      }
+    if (message.content === "kanna-chan") {
+        message.channel.send("moshi moshi")
+    }
 
     if (message.content === ":ja khang") {
         message.channel.send("chim cúc chiên bơ ngoo si tks")
