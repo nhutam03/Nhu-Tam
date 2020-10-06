@@ -206,7 +206,12 @@ bot.on("message", async message => {
         if(text) return message.reply("bao ve nguoi ay cung k xong");
          message.channel.reply(text);
         }
-
+    if(message.content.startsWith(":say")) {
+        var text = message.content.split(' ').slice(1).join(' ');
+        if(!text) return message.reply("địt mẹ mày sai rồi Ex: !say sủa concac");
+         message.channel.send(text)
+         message.delete();
+    }
 
 
     if (message.author.equals(bot.user)) return;
@@ -249,14 +254,6 @@ bot.on("message", async message => {
             message.channel.send("j loli trong truyen thuyet sao");
             break;
        } 
-
-        case "say": {
-           var text = message.content.split(' ').slice(1).join(' ');
-              message.channel.send(text)
-              message.delete();
-           break;
-       }
-    
     }
 })
 
