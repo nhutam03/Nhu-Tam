@@ -259,11 +259,11 @@ bot.on("message", async message => {
             message.channel.send("Chưa update mục này.");
             break;
         }
-        case "Oblivion": {
+        case "oblivion": {
             message.channel.send("https://discord.gg/GQzDBPE");
             break;
         }
-        case "Dogevn": {
+        case "dogevn": {
             message.channel.send("https://discord.gg/QfGbBY5");
             break;
         }
