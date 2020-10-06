@@ -133,33 +133,6 @@ bot.on("message", async message => {
         message.channel.send(randomtheanh);
     }
     
-  /*  const sad = "đôi khi tôi khó chịu một cách vô lý, nhưng chỉ cần an ủi xoa dịu tôi là tôi lại bình thường trở lại. vậy sao không an ủi mà mọi người lại cố chứng minh tôi vô lý vậy, nó sẽ làm tôi ổn hơn sao, thực sự nó khiến tôi buồn thêm đấy"
-    if ((message.content.includes("chuyen buon cua Tam")) || (message.content.includes ("chuyen buon cua tam"))) {
-        message.channel.send(sad)
-    }
-
-    const happy = "điều khiến tôi tốt hơn bây giờ là người làm tôi buồn an ủi tôi, nhưng chắc chắn là không có rồi, có khi họ còn chẳng để ý rằng tôi cảm thấy như nào nữa, và xem tôi là con người đáng ghét chẳng hạn, không có cách làm Tâm hết buồn rồi"
-    if ((message.content.includes("cach lam Tam het buon")) || (message.content.includes("cach lam tam het buon"))) {
-        message.channel.send(happy)
-    }
-
-    const soul = "Tôi cảm thấy tôi thật thừa thãi ở đây, tôi có thể an ủi mọi người, nhưng tôi vẫn là người vô hình trong mắt tất cả, tôi cảm thấy thật buồn bã đến khóc lên, nhưng tôi có là gì đâu để mọi người phải để tâm đến đúng không, dù tôi có biến mất thì tất cả vẫn bình thường mà nhỉ, cũng phải thôi."
-    if ((message.content.includes("suy nghi cua Tam")) || (message.content.includes("suy nghi cua tam"))) {
-        message.channel.send(soul)
-    }
-
-    if ((message.content == "Tam") || (message.content == "tam")) {
-         message.channel.send("tôi biết cái sv này đông người, dù có mất đi một người thì cũng chả quan trọng gì, nên tôi luôn là người vô hình ở đây, và khi tôi có như nào thì cũng chẳng ai quan tâm, chỉ có tôi phải tự lo cho mình thôi")
-    }
-
-    if (message.content.includes("commands cua Kanna")) {
-         message.channel.send("chẳng có gì ngoài lời nói của tôi đâu")
-    }*/
-
-  //  let mention = message.mentions.users.first();
-  //  if (message.author === message.mentions.users.id(420163496655716363)) {
-  //      message.channel.send("Tâm đã xoá app Discord, bạn có gì muốn nói với Tâm sao?")
-  //  } 
    /* const gn = ["Chúc bé ngủ ngon", "oyasumi 😴", "đi ngủ hoặc bị đánh đít", "cút cút mau", "tôi thấy mặt Tâm chúc bạn ngủ ngon", "ngủ đi hoặc yêu em"]
    const randomgn = gn[Math.floor(Math.random() * gn.length)]
     if ((message.content.includes("ngu ngon")) || (message.content.includes("Ngu ngon"))) {
@@ -234,13 +207,6 @@ bot.on("message", async message => {
          message.channel.reply(text);
         }
 
-    if(message.content.startsWith(":say")) {
-        var text = message.content.split(' ').slice(1).join(' ');
-        if(!text) return message.reply("địt mẹ mày sai rồi Ex: :say sủa concac");
-         message.channel.send(text)
-         message.delete();
-    }
-    
 
 
     if (message.author.equals(bot.user)) return;
@@ -283,7 +249,15 @@ bot.on("message", async message => {
             message.channel.send("j loli trong truyen thuyet sao");
             break;
        } 
-   
+
+        case ":say": {
+           var text = message.content.split(' ').slice(1).join(' ');
+           if(!text) return message.reply("địt mẹ mày sai rồi Ex: :say sủa concac");
+              message.channel.send(text)
+              message.delete();
+           break;
+       }
+    
     }
 })
 
