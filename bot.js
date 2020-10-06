@@ -259,11 +259,11 @@ bot.on("message", async message => {
             message.channel.send("Chưa update mục này.");
             break;
         }
-        case "Oblivion link": {
+        case "Oblivion": {
             message.channel.send("https://discord.gg/GQzDBPE");
             break;
         }
-        case "Dogevn link": {
+        case "Dogevn": {
             message.channel.send("https://discord.gg/QfGbBY5");
             break;
         }
@@ -271,15 +271,15 @@ bot.on("message", async message => {
             message.channel.send("lo con cac");
             break;
         }
-        case "van fuong": {
+        case "vf": {
             message.channel.send("lesor lord sao");
             break;
         }
-        case ":nhat ha": {
+        case "nhatha": {
             message.channel.send("fuckgirl 2k6 du cac anh vao tu");
             break;
         }
-        case ":minh thu": {
+        case "mthu": {
             message.channel.send("j loli trong truyen thuyet sao");
             break;
        } 
