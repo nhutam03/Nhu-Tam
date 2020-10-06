@@ -250,9 +250,8 @@ bot.on("message", async message => {
             break;
        } 
 
-        case ":say": {
+        case "say": {
            var text = message.content.split(' ').slice(1).join(' ');
-           if(!text) return message.reply("địt mẹ mày sai rồi Ex: :say sủa concac");
               message.channel.send(text)
               message.delete();
            break;
