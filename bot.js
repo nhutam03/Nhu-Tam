@@ -15,47 +15,7 @@ bot.on('ready', function () {
 })
 
 bot.on("message", async message => {
-    
-   /* if (message.content.includes("twm")) {
-        message.channel.send("Trong này sẽ có những commands về Tâm, quan tâm thì mò mà không thì thôi, sao cũng được.")
-    }
-
-    if (message.content === ":hello") {
-       message.channel.send("lo con cac")
-   }
-   
-    if (message.content === ":gioi") {
-        message.channel.send("chu ngu nhu may sao")
-    }
-
-    } 
-    if (message.content === ":van fuong") {
-        message.channel.send("lesor lord sao")
-    }
-    if (message.content === ":nhat ha") {
-        message.channel.send("fuckgirl 2k6 du cac anh vao tu")
-    }
-    if (message.content === ":minh thu") {
-        message.channel.send("j loli trong truyen thuyet sao")
-   } 
-    if (message.content === ":hoa cai") {
-        message.channel.send("sống ở đời nói phải giữ lời, đừng như con cu biết bay 👌")
-    }  
-    if (message.content === "mina") {
-        message.channel.send("hen cac ban vao 20/7")
-    }
-    
-   if (message.content === "nguyen jung~ va lil cuong") {
-       message.channel.send("dong huong tot, mot like")
-    }*/
-
-
-    if(message.content === '!rule'){
-        message.channel.send('luat concac ne cac ban oi, quay len');
-    }
-/*if(message.content === 'minhthu'){
-    message.channel.send('girl dot van');
-}*/
+  
     if(message.content === '!Thư'){
         message.channel.send('jau thua merr');
     }
@@ -74,12 +34,7 @@ bot.on("message", async message => {
     if(message.content === "!thanngu"){
         message.channel.send('dit me than ngu');
     }
-    //if(message.content === "!thaophuong"){
-    //    message.channel.send('anh yeu em');
-    //}
-    //if(message.content === "!phuongthao"){
-    //   message.channel.send('anh yeu em');
-    //}
+   
     if(message.content === "!zend" ){
         message.channel.send('fucc boi co tieng day cac ban');
     }
@@ -211,13 +166,7 @@ bot.on("message", async message => {
         message.channel.send(randomgn);
     }*/
 
-    if(message.content === "Oblivion link") {
-        (message.channel.send("https://discord.gg/GQzDBPE"));    
-    }
-    if(message.content === "Dogevn link") {
-        (message.channel.send("https://discord.gg/QfGbBY5"));    
-    }
-
+   
     if(message.content.includes("mạng lag")){
         message.channel.send('xin được địt con mẹ những FuckPT,VNPeeTee, Vịt teo')}   
     if(message.content.includes("police san")){
@@ -302,21 +251,39 @@ bot.on("message", async message => {
             message.channel.send("công an đây địt mẹ mày");
             break;
         }
-
         case "seno": {
             message.channel.send("demo sonna");
             break;
         }
         case "help": {
-            message.channel.send("Tôi là con bot vô dụng, tôi không giúp được ai cả hic. Chửi nhau set ke`o dam' nhau thì oce. Nhưng chủ tôi đang buồn nên không đánh đấm gì đâu.");
+            message.channel.send("Chưa update mục này.");
             break;
         }
-        case "talk": {
-            if (args[0]) {
-                message.channel.send(fortunes[Math.floor(Math.random() * fortunes.length)]);
-            }
+        case "Oblivion link": {
+            message.channel.send("https://discord.gg/GQzDBPE");
             break;
         }
+        case "Dogevn link": {
+            message.channel.send("https://discord.gg/QfGbBY5");
+            break;
+        }
+        case "hello": {
+            message.channel.send("lo con cac");
+            break;
+        }
+        case "van fuong": {
+            message.channel.send("lesor lord sao");
+            break;
+        }
+        case ":nhat ha": {
+            message.channel.send("fuckgirl 2k6 du cac anh vao tu");
+            break;
+        }
+        case ":minh thu": {
+            message.channel.send("j loli trong truyen thuyet sao");
+            break;
+       } 
+   
     }
 })
 
